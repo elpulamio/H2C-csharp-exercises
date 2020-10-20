@@ -14,12 +14,12 @@ namespace exercise_38
                 Console.WriteLine("Give a number:");
                 msg = Console.ReadLine();
                 nro = Convert.ToInt32(msg);
-                if (nro < 0)
+                if (nro != 0)
                 {
-                    sum = sum + 1;
+                    sum = sum + nro;
                 }
       }
-      Console.WriteLine("Total amount of negative numbers: " + sum);
+      Console.WriteLine("Total sum of numbers: " + sum);
     }
   }
 }
