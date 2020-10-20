@@ -7,8 +7,16 @@ namespace exercise_37
     public static void Main(string[] args)
     {
       int sum = 0;
-      // Write your code here:
-
+      int nro = 1;
+      string msg = "-";
+      while (nro != 0)
+      {
+                Console.WriteLine("Give a number:");
+                msg = Console.ReadLine();
+                nro = Convert.ToInt32(msg);
+                sum = sum + 1;
+      }
+      Console.WriteLine("Total amount of numbers: " + (sum-1));
     }
   }
 }
