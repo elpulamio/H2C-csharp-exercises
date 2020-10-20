@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net.Configuration;
 
 namespace exercise_35
 {
@@ -6,7 +7,14 @@ namespace exercise_35
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
+      string msg = "-";
+      int nro = 0;
+      while (nro != 42)
+      {
+        Console.WriteLine("Give a number:");
+        msg = Console.ReadLine();
+        nro = Convert.ToInt32(msg);
+      }
 
     }
   }
