@@ -6,8 +6,13 @@ namespace exercise_43
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
-      
+      int nro = Convert.ToInt32(Console.ReadLine());
+      if (nro < 0)
+      {
+        nro = nro * (-1);      
+      }
+      Console.WriteLine(nro);
+
     }
   }
 }
