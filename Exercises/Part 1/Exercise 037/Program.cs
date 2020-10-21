@@ -9,12 +9,16 @@ namespace exercise_37
       int sum = 0;
       int nro = 1;
       string msg = "-";
-      while (nro != 0)
+      while (true)
       {
                 Console.WriteLine("Give a number:");
                 msg = Console.ReadLine();
                 nro = Convert.ToInt32(msg);
                 sum = sum + 1;
+                if (nro == 0)
+                {
+                    break;
+                }
       }
       Console.WriteLine("Total amount of numbers: " + (sum-1));
     }
