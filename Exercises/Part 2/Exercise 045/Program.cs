@@ -7,7 +7,13 @@ namespace exercise_45
     public static void Main(string[] args)
     {
 
-      // Write your code here:
+      int nro = Convert.ToInt32(Console.ReadLine());
+      int nro2 = 0;
+      while (nro2 <= nro)
+      {
+        Console.WriteLine(nro2);
+        nro2++;
+      }
 
     }
   }
