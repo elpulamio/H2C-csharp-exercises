@@ -7,10 +7,14 @@ namespace exercise_34
     public static void Main(string[] args)
     {
       string msg = "-";
-      while (msg != "no")
+      while (true)
       {
         Console.WriteLine("Do you want to continue?");
         msg = Console.ReadLine();
+        if (msg == "no")
+        {
+            break;
+        }
       }
 
     }
