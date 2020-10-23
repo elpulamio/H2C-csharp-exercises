@@ -6,13 +6,20 @@ namespace exercise_50
   {
     public static void Main(string[] args)
     {
-      // Call your method here:
+        Console.WriteLine("How many times?");
+        int count = Convert.ToInt32(Console.ReadLine());
+        PrintPhrase(count);
  
     }
 
-    // Write your method here:
-    public static void PrintPhrase() {
-
+    public static void PrintPhrase(int count) 
+    {
+        int i = 0;
+        while (count > i)
+        {
+            Console.WriteLine("In a hole in the ground there lived a method");
+            i++;
+        }
     }
   }
 }
