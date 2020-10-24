@@ -23,7 +23,8 @@ namespace exercise_59
         }
         else
         {
-            ret = number3;   
+            //returns number3 also if all numbers are same
+            ret = number3;
         }
         return ret;
     }
