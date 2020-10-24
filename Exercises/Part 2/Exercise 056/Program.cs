@@ -6,10 +6,16 @@ namespace exercise_56
   {
     public static void Main(String[] args)
     {
-
+        //with printing
+        Console.WriteLine(Word());
+        //or without printing
+        //NumberUno();
     }
 
-    // Write your method here:
+    public static string Word()
+    {
+        return "This string shall be returned.";
+    }
 
   }
 }
