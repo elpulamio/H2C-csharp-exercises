@@ -10,7 +10,20 @@ namespace exercise_58
       Console.WriteLine("Smallest: " + answer);
     }
 
-    // Write your method here:
+    public static int Smallest(int number1, int number2)
+    {
+        int ret = 0;
+        if (number1 < number2)
+        {
+            return number1;    
+        }
+        else if (number2 < number1)
+        {
+            ret = number2;    
+        }
+        //returns zero if numbers are same
+        return ret;
+    }
     
   }
 }
