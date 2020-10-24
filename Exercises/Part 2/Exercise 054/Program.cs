@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 
 namespace exercise_54
 {
@@ -6,11 +7,23 @@ namespace exercise_54
   {
     public static void Main(String[] args)
     {
-      // Call your method here:
+      DivisibleByThreeInRange(-9,17);
 
     }
 
-    // Write your method here:
+    public static void DivisibleByThreeInRange(int beginning, int end)
+    {
+        int b = beginning;
+        int e = end;
+        while (b <= e)
+        {
+            if (b % 3 == 0)
+            {
+                Console.WriteLine(b);    
+            }
+            b++;
+        }
+    }
 
   }
 }
