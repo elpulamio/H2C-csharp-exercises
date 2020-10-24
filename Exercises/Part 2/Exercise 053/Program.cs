@@ -6,12 +6,14 @@ namespace exercise_53
   {
     public static void Main(String[] args)
     {
-      // Call your method here:
-
-
+      Division(9,7);
     }
 
-    // Write your method here:
+    public static void Division(int numerator, int denominator)
+    {
+        double result = (double)numerator / (double)denominator;
+        Console.WriteLine(result);
+    }
 
   }
 }
