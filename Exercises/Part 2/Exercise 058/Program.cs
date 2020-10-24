@@ -6,7 +6,7 @@ namespace exercise_58
   {
     public static void Main(String[] args)
     {
-      int answer = Smallest(2, 7);
+      int answer = Smallest(1, 9);
       Console.WriteLine("Smallest: " + answer);
     }
 
@@ -17,11 +17,11 @@ namespace exercise_58
         {
             return number1;    
         }
-        else if (number2 < number1)
+        else
         {
             ret = number2;    
         }
-        //returns zero if numbers are same
+        //returns number2 also if numbers are same
         return ret;
     }
     
