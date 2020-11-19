@@ -9,7 +9,7 @@ namespace exercise_45
 
       int nro = Convert.ToInt32(Console.ReadLine());
       int nro2 = 0;
-      while (nro2 <= nro)
+      while (nro >= nro2)
       {
         Console.WriteLine(nro2);
         nro2++;

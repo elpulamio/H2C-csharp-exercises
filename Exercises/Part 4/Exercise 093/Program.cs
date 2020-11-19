@@ -7,8 +7,11 @@ namespace exercise_93
     public static void Main(string[] args)
     {
       // DO NOT TOUCH THE OTHER FILE!
-      // Do your code here!
 
+        Account mikesAccount = new Account("Mike's account", 100);
+        mikesAccount.Deposit(20);
+        Console.WriteLine(mikesAccount.balance);
+        
     }
   }
 }
