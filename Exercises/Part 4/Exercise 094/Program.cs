@@ -8,6 +8,7 @@ namespace exercise_94
     {
       // DO NOT TOUCH THE OTHER FILE!
       // Do your code here!
+      Account heikkisAccount = new Account("Heikki's account", 1000.00);
 
     }
   }

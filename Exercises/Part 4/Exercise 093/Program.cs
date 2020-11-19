@@ -8,8 +8,8 @@ namespace exercise_93
     {
       // DO NOT TOUCH THE OTHER FILE!
 
-        Account mikesAccount = new Account("Mike's account", 100);
-        mikesAccount.Deposit(20);
+        Account mikesAccount = new Account("Mike's account", 100.0);
+        mikesAccount.Deposit(20.0);
         Console.WriteLine(mikesAccount.balance);
         
     }
