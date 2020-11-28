@@ -15,8 +15,8 @@ namespace exercise_60
         PrintRectangle(17, 3);
         Console.WriteLine("");
         PrintTriangle(4);
-    }
 
+    }
 
     public static void PrintStars(int number)
     {
