@@ -17,7 +17,6 @@ namespace exercise_60
         PrintTriangle(4);
     }
 
-
     public static void PrintStars(int number)
     {
         for (int i = 0; i < number; i++)
