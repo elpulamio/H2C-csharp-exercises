@@ -30,11 +30,7 @@ namespace exercise_60
     {
         for (int x = 0; x < size; x++)
         {
-            for (int i = 0; i < size; i++)
-            {
-                Console.Write("*");
-            }
-            Console.WriteLine("");
+            PrintStars(size);
         }
     }
 
