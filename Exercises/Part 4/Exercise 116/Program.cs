@@ -10,7 +10,7 @@ namespace exercise_116
       // Read the file data.txt and print the text from it as it is
       // You can use either File.ReadAllText or File.ReadAllLines
    
-      string data = File.ReadAllText(@"C:\Users\Admin\source\repos\elpulamio\H2C-csharp-exercises\Exercises\Part 4\Exercise 116\data.txt");
+      string data = File.ReadAllText("../../data.txt");
       Console.WriteLine(data);
 
     }
