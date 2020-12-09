@@ -10,6 +10,7 @@ namespace exercise_116
       // Read the file data.txt and print the text from it as it is
       // You can use either File.ReadAllText or File.ReadAllLines
    
+      //Must add ../../ before file name, because otherwise default path goes two folder too deep
       string data = File.ReadAllText("../../data.txt");
       Console.WriteLine(data);
 
