@@ -18,8 +18,12 @@ namespace exercise_130
     // BEGIN SOLUTION
     public override bool Equals(object compared)
     {
-
-      return false;
+        Book comparedBook = (Book)compared;
+        if (this.name == comparedBook.name && this.publicationYear == comparedBook.publicationYear)
+        {
+            return true;
+        }
+        return false;
     }
     // END SOLUTION
   }
