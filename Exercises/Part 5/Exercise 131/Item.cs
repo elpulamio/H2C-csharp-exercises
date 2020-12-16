@@ -18,12 +18,13 @@ namespace exercise_131
 
     public override bool Equals(object compared)
     {
-
-      //compare with Item.identifier
-
-      return false;
-      }
+        //compare with Item.identifier
+        Item comparedItem = (Item)compared;
+        if (this.identifier == comparedItem.identifier)
+        {
+            return true;
+        }
+        return false;
     }
-
   }
 }
